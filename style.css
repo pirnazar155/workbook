@@ -1,0 +1,55 @@
+.lobby{
+    width: 600px;
+    height: 200px;
+    border-bottom: 1px solid black;
+    margin: auto;
+}
+#trex{
+    width: 50px;
+    height: 50px;
+    background-image: url(hero_chara_mario_update_pc.png);
+    background-size: 50px 50px;
+    position: relative;
+    top: 150px;
+}
+#cactus{
+    width: 20px;
+    height: 40px;
+    background-image: url(kungfu.jpg);
+    background-size: 20px 40px;
+    position: relative;
+    top: 110px;
+    left: 580px;
+    animation: cactusop 1s infinite linear;
+}
+@keyframes cactusop {
+    0%{
+        left: 580px;
+    }
+    100%{
+        left: -20px;
+    }
+    
+}
+
+.sakramoq{
+    animation: sakramoq 0.5s linear;
+}
+@keyframes sakramoq {
+    0%{
+        left: 1px;
+    }
+    30%{
+        top: 100px;
+    }
+    50%{
+        top: 60px;
+    }
+    80%{
+        top: 150px;
+    }
+    100%{
+        left: 1px;
+    }
+    
+}
